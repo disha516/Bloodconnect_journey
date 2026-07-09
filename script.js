@@ -57,3 +57,12 @@ function openOfflineModal() {
 function closeOfflineModal() {
     document.getElementById("offlineModal").style.display = "none";
 }
+// Community Modal ko open karne ka code
+function openCommunityModal() {
+    document.getElementById("communityModal").style.display = "block";
+}
+
+// Community Modal ko close karne ka code
+function closeCommunityModal() {
+    document.getElementById("communityModal").style.display = "none";
+}
