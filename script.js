@@ -48,3 +48,12 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+// Offline Modal ko open karne ka code
+function openOfflineModal() {
+    document.getElementById("offlineModal").style.display = "block";
+}
+
+// Offline Modal ko close karne ka code
+function closeOfflineModal() {
+    document.getElementById("offlineModal").style.display = "none";
+}
